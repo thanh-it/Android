@@ -154,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
                    Intent intent = new Intent(MainActivity.this,HomeActivity.class);
                    intent.putExtra("success", result);
                    startActivity(intent);
+                   Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
                }
         }
 

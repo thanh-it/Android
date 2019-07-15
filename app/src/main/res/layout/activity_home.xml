@@ -21,6 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EXIT"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/getData"
         android:id="@+id/logout"/>

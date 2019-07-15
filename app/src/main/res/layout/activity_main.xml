@@ -24,7 +24,7 @@
             android:layout_centerVertical="true"
             android:id="@+id/tv_username"/>
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="username"
             android:layout_toRightOf="@id/tv_username"
@@ -46,7 +46,7 @@
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/tv_password"
             android:ems="8"
@@ -68,15 +68,16 @@
 
         <EditText
             android:id="@+id/name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/tv_name"
             android:ems="8"
             android:hint="name"/>
     </RelativeLayout>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
         android:text="LOGIN"
         android:layout_below="@id/names"
         android:id="@+id/login"
